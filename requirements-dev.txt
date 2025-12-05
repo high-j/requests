@@ -6,3 +6,5 @@ httpbin==0.10.0
 trustme
 wheel
 cryptography<40.0.0; python_version <= '3.7' and platform_python_implementation == 'PyPy'
+brotlicffi>=1.2.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
